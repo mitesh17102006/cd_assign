@@ -12,11 +12,11 @@ void yyerror(const char *s);
 /* TOKENS */
 
 %token BcsMain
-%token if
-%token else
-%token while
-%token int
-%token bool
+%token IF
+%token ELSE
+%token WHILE
+%token INT
+%token BOOL
 %token id
 %token num
 %token relop
